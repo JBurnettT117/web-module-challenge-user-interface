@@ -12,11 +12,11 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Gaegu', cursive;
-  margin-bottom: 0;
-  padding: 0 10px;
-  /*=======  Update the font size to 30px */
-  font-size: 30px;
+font-family: 'Gaegu', cursive;
+margin-bottom: 0;
+padding: 0 10px;
+/*=======  Update the font size to 30px */
+font-size: 30px;
 }
 
 /*======= Create a selector for ALL p tags in the site to have the following styles:*/
@@ -70,18 +70,24 @@ color: pink;
 }
 
 /*======= Create a selector for the about section to have the following styles:*/
-  .about-section {
+#about {
   margin-top: 20px;
   }
 
-.contact-section {
+.contact {
   border-top: 1px dashed black;
   padding: 20px 0;
+  /* text-align: center; */
 }
 
 .contact-section h2 {
   padding: 0;
   margin: 0 0 10px 0;
+}
+
+.contact-section {
+  width: 605px;
+  margin: 0 auto;
 }
 
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:*/
